@@ -4,6 +4,7 @@
     }
 
     ui.decorateWith("appui", "standardEmrPage")
+    ui.includeJavascript("uicommons", "emr.js")
 
     ui.includeJavascript("uicommons", "jquery-1.12.4.min.js", Integer.MAX_VALUE)
     ui.includeJavascript("uicommons", "jquery-ui-1.9.2.custom.min.js", Integer.MAX_VALUE - 10)
@@ -20,7 +21,7 @@
     ui.includeJavascript("uicommons", "navigator/exitHandlers.js", Integer.MAX_VALUE - 22)
     ui.includeJavascript("registrationapp", "registerPatient.js")
     ui.includeCss("registrationapp","registerPatient.css")
-    ui.includeCss("kenyaemr", "referenceapplication.css")
+    ui.includeCss("kpsystem", "referenceapplication.css")
 
 
     def genderOptions = [ [label: ui.message("emr.gender.M"), value: 'M'],

@@ -12,7 +12,7 @@
     ui.includeJavascript("uicommons", "navigator/navigatorModels.js", Integer.MAX_VALUE - 21)
     ui.includeJavascript("uicommons", "navigator/navigatorTemplates.js", Integer.MAX_VALUE - 21)
     ui.includeJavascript("uicommons", "navigator/exitHandlers.js", Integer.MAX_VALUE - 22);
-    ui.includeCss("kenyaemr", "referenceapplication.css")
+    ui.includeCss("kpsystem", "referenceapplication.css")
     ui.includeCss("registrationapp", "editSection.css")
 
     def genderOptions = [ [label: ui.message("emr.gender.M"), value: 'M'],
